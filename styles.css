@@ -1,0 +1,74 @@
+body {
+     margin: auto;
+    background-color: #08a2c8;
+    text-align: center;
+    padding: 30px;
+    }
+
+
+#div1 {
+   
+    border: 10px solid green;
+    padding: 25px;
+    width: 200px;
+    height: 400px;
+    background: solarized;
+    float: left;
+}
+
+#div2 {
+    
+    border: 10px solid green;
+    padding: 25px;
+    width: 600px;
+    background: solarized;
+    height: 90px;
+    margin-left: 380px;
+}
+#div3 {
+    margin-left: 380px;
+}
+
+#colorPicker {
+    
+}
+h1 {
+    font-family: Monoton;
+    font-size: 45px;
+    margin: 0em;
+    color: coral
+}
+
+h2 {
+    font-family: Monoton;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+
+    border: 1px solid black;
+}
+
+table 
+{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
